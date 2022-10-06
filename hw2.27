@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+	printf("with eight printf() statements: \n");
+
+	printf("    *\n");
+	printf("   ***\n");
+	printf("  *****\n");
+	printf(" *******\n");
+	printf("*********\n");
+
+	printf("\nNow with one printf() statement: \n");
+
+	printf("    *\n   ***\n"
+		   "  *****\n *******\n"
+		   "*********\n");
+
+	return 0;
+}
